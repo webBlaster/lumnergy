@@ -1,0 +1,57 @@
+.cart-row {
+    flex-wrap:nowrap !important;
+    text-align: center !important;
+}
+
+.cart-row span{
+	padding: 10px 5px;
+}
+
+/* Column Captions */
+
+.columnCaptions {
+    font-weight: bold;
+	padding:15px 0 8px 0;
+	text-transform: uppercase;
+}
+*/
+
+
+
+/* Items */
+
+.itemName {	
+	color: #727578;
+	font-size :16px;
+}
+
+.delete {
+    cursor: pointer;
+    margin:0;
+    margin-left: 28.5%;
+	text-align: right !important;
+}
+
+.quantity{	
+	color: #727578;;
+	font-size :18px;
+}
+
+
+.price{
+	color: #727578;
+	font-size: 18px;
+}
+
+
+/* Totals */
+
+.totals span{
+	padding: 15px 15px 15px 15px;
+}
+
+
+.totals{
+	text-align: center;
+	cursor: pointer;
+}

@@ -1,0 +1,20 @@
+
+.desktop-setup-form-container {
+    display:none;
+}
+
+@media screen and ( min-width: 700px ) {
+    .mobile-setup-form-container {
+        display:none;
+    }
+    .desktop-setup-form-container {
+        display:flex;
+        justify-content: space-between;
+    }
+    .next-button, .previous-button {
+        width: 20%;
+    }
+    .previous-button {
+        margin:0 !important;
+    }
+}

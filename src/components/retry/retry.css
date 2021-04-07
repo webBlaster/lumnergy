@@ -1,0 +1,11 @@
+.retry-container {
+    position:fixed;
+    width: 100%;
+    background:white;
+    height:100vh;
+    z-index: 1000;
+}
+
+.retry-container .content {
+    margin:30vh auto;
+}

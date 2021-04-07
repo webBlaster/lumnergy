@@ -1,0 +1,9 @@
+.lumnergy-navbar {
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid #212020;
+}
+
+a:hover {
+    opacity: 0.8;
+}

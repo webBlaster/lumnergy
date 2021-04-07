@@ -1,0 +1,4 @@
+include:
+    - project: 'Lumnergy/gitlab-ci'
+      ref: master
+      file: /templates/react-frontend/.gitlab-ci-frontend.yml

@@ -1,0 +1,56 @@
+.main-content {
+    background-color: black;
+    color: white;
+    border-radius: 0;
+    height: 200px;
+}
+
+.section-headline {
+    font-size: 40px;
+}
+
+.product-headline {
+    font-size: 32px;
+}
+
+@media (min-width: 768px) {
+    .section-headline {
+        font-size: 64px;
+    }
+    
+    .product-headline {
+        font-size: 56px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-content .subhead,
+    .section-heading {
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 768px) {
+    .main-content {
+        height: 500px;
+    }
+}
+
+.section, .product-content {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.section-heading {
+    margin-bottom: 40px;
+}
+
+.info-card {
+    margin-top: 15px;
+}
+
+@media(min-width: 768px) {
+    .info-card {
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,33 @@
+* {
+    /* outline: 1px solid red; */
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+body > #root {
+    padding-top: 3.5em;
+}
+
+.minh-100 {
+    min-height: 100% !important;
+}
+
+.spacer {
+    padding-top: 1.5rem;
+}
+
+.page-form-card {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 4px;
+    color: #333333ad;
+}
